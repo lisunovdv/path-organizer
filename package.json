@@ -1,0 +1,29 @@
+{
+  "name": "path-organizer",
+  "version": "1.0.0",
+  "description": "Simple path organization system for your project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisunovdv/path-organizer.git"
+  },
+  "keywords": [
+    "path",
+    "application",
+    "organizer",
+    "route"
+  ],
+  "author": "Dmytro Lisunov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lisunovdv/path-organizer/issues"
+  },
+  "homepage": "https://github.com/lisunovdv/path-organizer#readme",
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "flat": "^4.0.0"
+  }
+}

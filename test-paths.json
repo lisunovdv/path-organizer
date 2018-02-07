@@ -1,0 +1,26 @@
+{
+  "config": "app\\config",
+  "dist": {
+    "web": "app\\dist\\web",
+    "arch": "app\\dist\\arch",
+    "root": "app\\dist",
+    "shared": "app\\dist\\shared",
+    "distributive": "app\\dist\\distributive"
+  },
+  "src": {
+    "root": "app\\src",
+    "slides": "app\\src\\slides",
+    "global": {
+      "root": "app\\src\\global",
+      "shared": "app\\src\\global\\shared",
+      "templates": {
+        "root": "app\\src\\global\\templates",
+        "data": "app\\src\\global\\templates\\data",
+        "helpers": "app\\src\\global\\templates\\helpers",
+        "partials": "app\\src\\global\\templates\\partials",
+        "decorators": "app\\src\\global\\templates\\decorators"
+      }
+    }
+  },
+  "root": "app"
+}
