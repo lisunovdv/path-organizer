@@ -38,29 +38,29 @@ into this (JSON format):
 
 <pre>
   'paths': {
-    'root': 'app',
-    'config': 'app/config/',
+    'root': './app',
+    'config': './app/config/',
     'src': {
-      'root': 'app/src/',
+      'root': './app/src/',
       'global': {
-        'root': 'app/src/global',
+        'root': './app/src/global',
         'templates': {
-          'root': 'app/src/global/templates/',
-          'decorators': 'app/src/global/templates/decorators/',
-          'partials': 'app/src/global/templates/partials/',
-          'helpers': 'app/src/global/templates/helpers/',
-          'data': 'app/src/global/templates/data/'
+          'root': './app/src/global/templates/',
+          'decorators': './app/src/global/templates/decorators/',
+          'partials': './app/src/global/templates/partials/',
+          'helpers': './app/src/global/templates/helpers/',
+          'data': './app/src/global/templates/data/'
         },
-        'shared': 'app/src/global/shared/'
+        'shared': './app/src/global/shared/'
       },
-      'slides': 'app/src/slides/'
+      'slides': './app/src/slides/'
     },
     'dist': {
-      'root': 'app/dist/',
-      'web': 'app/dist/web',
-      'arch': 'app/dist/arch/',
-      'distributive': 'app/dist/distributive/',
-      'assets': 'assets'
+      'root': './app/dist/',
+      'web': './app/dist/web',
+      'arch': './app/dist/arch/',
+      'distributive': './app/dist/distributive/',
+      'assets': './assets'
     }
   }
 </pre>

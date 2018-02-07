@@ -17,7 +17,7 @@
 
         rootFolderName = rootFolderName || 'app';
         rootTitle = rootTitle || 'root';
-        let flattenPaths = flatten(myPaths, {delimiter: path.sep});
+        let flattenPaths = flatten(myPaths, {delimiter: '/'});
 
         if (flattenPaths.root) {
             rootFolderName = flattenPaths.root;
@@ -25,12 +25,12 @@
         }
 
         for (singlePath in flattenPaths) {
-            flattenPaths[singlePath] = path.join(rootFolderName, singlePath.replace(path.sep + rootTitle,''));
+            flattenPaths[singlePath] = './' + rootFolderName + '/' + singlePath.replace(path.sep + rootTitle,'');
         }
 
         let normalizedPaths = unflatten(flattenPaths, {
             object: true,
-            delimiter: path.sep,
+            delimiter: '/',
             overwrite: true
         });
 
