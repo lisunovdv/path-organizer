@@ -24,8 +24,9 @@
             delete flattenPaths.root;
         }
 
+
         for (singlePath in flattenPaths) {
-            flattenPaths[singlePath] = './' + rootFolderName + '/' + singlePath.replace(path.sep + rootTitle,'');
+            flattenPaths[singlePath] = './' + rootFolderName + '/' + singlePath.replace('/' + rootTitle,'');
         }
 
         let normalizedPaths = unflatten(flattenPaths, {
